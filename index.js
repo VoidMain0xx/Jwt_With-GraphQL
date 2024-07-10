@@ -28,7 +28,7 @@ async function startServer() {
    
 
     app.listen({ port: 3000 }, () => {
-        console.log(`Server running at http://localhost:4000${server.graphqlPath}`);
+        console.log(`Server running at http://localhost:3000${server.graphqlPath}`);
     });
 }
 
