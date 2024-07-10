@@ -21,6 +21,12 @@ async function startServer() {
 
    connectDB();
 
+
+
+
+
+   
+
     app.listen({ port: 3000 }, () => {
         console.log(`Server running at http://localhost:4000${server.graphqlPath}`);
     });
